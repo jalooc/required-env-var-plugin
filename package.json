@@ -1,0 +1,19 @@
+{
+  "name": "required-env-var-plugin",
+  "version": "1.0.1-0",
+  "description": "Webpack plugin for enforcing environmental variables.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalooc/required-env-var-plugin.git"
+  },
+  "author": "Piotr Dżaluk <jalooc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalooc/required-env-var-plugin/issues"
+  },
+  "homepage": "https://github.com/jalooc/required-env-var-plugin#readme",
+  "peerDependencies": {
+    "webpack": "1 || ^2.1.0-beta"
+  }
+}
