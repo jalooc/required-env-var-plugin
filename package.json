@@ -1,6 +1,6 @@
 {
   "name": "required-env-var-plugin",
-  "version": "0.0.1",
+  "version": "1.0.0-beta.1",
   "description": "Webpack plugin for enforcing environmental variables.",
   "main": "index.js",
   "repository": {
