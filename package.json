@@ -13,6 +13,13 @@
     "url": "https://github.com/jalooc/required-env-var-plugin/issues"
   },
   "homepage": "https://github.com/jalooc/required-env-var-plugin#readme",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "mockery": "^2.0.0"
+  },
   "peerDependencies": {
     "webpack": "1 || ^2.1.0-beta"
   }
