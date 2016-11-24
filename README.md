@@ -1,4 +1,4 @@
-#required-env-var-plugin
+#required-env-var-plugin [![Build Status](https://travis-ci.org/jalooc/required-env-var-plugin.svg?branch=master)](https://travis-ci.org/jalooc/required-env-var-plugin)
 
 >Require an environmental variable in your application or throw routhlessly.
 
