@@ -14,11 +14,11 @@ function RequiredEnvVarPlugin(...envVarsNames) {
     memo[varName] = JSON.stringify(processEnv)
 
     return memo
-  }, {});
+  }, {})
 
   webpack.DefinePlugin.call(this, {
     'process.env': envVarsMap,
-  });
+  })
 }
 
 RequiredEnvVarPlugin.prototype = new webpack.DefinePlugin()
